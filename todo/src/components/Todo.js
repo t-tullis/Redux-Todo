@@ -21,6 +21,7 @@ class Todo extends React.Component {
     render() {
         return (
             <div>
+            <h1>TODO List</h1>
                 <div className="todo-list">
                     {this.props.todos.map((todo, i) => {
                         return(
@@ -31,7 +32,6 @@ class Todo extends React.Component {
                     }
                 )}
                 </div>
-                <h1>Hey from TODO</h1>
                 <input
                 type="text"
                 name="newTodo"
